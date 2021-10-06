@@ -94,7 +94,14 @@ body{
   font-size: 18px;
 }
 
-.upload button {padding: 18px;background: #dc3545;border: none;color: #fff;font-size: 20px;width: 100%;}
+.upload button {
+  padding: 18px;
+  background: #dc3545;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  width: 100%;
+}
 
 input.fileupload {
   background: #fff;
@@ -132,14 +139,17 @@ input.fileupload {
 
 .table table {
   width: 100%;
+  border-spacing: 1px;
 }
 
 .drop-img {
   text-align: center;
 }
 
+
+
 .drop-img.second-img img {
-  max-width: 300px;
+  max-width: 500px;
 }
 
 @media screen and (max-width: 767px) {

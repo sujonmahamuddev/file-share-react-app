@@ -4,7 +4,7 @@ const Upload = () => {
      return (
           <div className="container">
                <div className="upload">
-                    <h2>Share File</h2>
+                    <h2>Upload File</h2>
                     <form>
                          <input type="text" placeholder="Description..." className="textinput" />
                          <input type="file" className="fileupload" />
