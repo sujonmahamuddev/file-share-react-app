@@ -3,7 +3,8 @@ import './App.css';
 import Header from './components/Header';
 import Upload from './components/Upload';
 import Table from './components/Table';
-
+import ImgFrist from './components/FileShareOne';
+import ImgSecond from './components/FileShareSecond'
 function App() {
   return (
     <div className="apps">
@@ -11,7 +12,9 @@ function App() {
         <Switch>
           <Route>
             <Header />
+            <ImgFrist />
             <Upload />
+            <ImgSecond />
             <Table />
           </Route>
         </Switch>

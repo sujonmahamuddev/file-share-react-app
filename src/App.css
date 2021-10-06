@@ -34,6 +34,7 @@ body{
   justify-content: space-between;
   background: #dc3545;
   padding: 20px 15px;
+  margin-bottom: 100px;
 }
 
 .logo a img {
@@ -53,14 +54,16 @@ body{
 .menu-list a {
   font-size: 30px;
   text-decoration: none;
+  display: inline;
   color: #fff;
 }
 
 .menu-list {
-  height: 30px;
-  width: 30px;
+  height: 80px;
+  width: 80px;
   text-align: center;
-  margin-top: -20px;
+  display: flex;
+  align-items: center;;
 }
 
 
@@ -111,6 +114,7 @@ input.fileupload {
   padding: 40px;
   border-radius: 10px;
   margin-bottom: 100px;
+  margin-top: 100px;
 }
 
 .table th, .table td {
@@ -130,7 +134,13 @@ input.fileupload {
   width: 100%;
 }
 
+.drop-img {
+  text-align: center;
+}
 
+.drop-img.second-img img {
+  max-width: 300px;
+}
 
 @media screen and (max-width: 767px) {
   .container{
@@ -168,6 +178,12 @@ input.fileupload {
 }
 
 .table{
+  margin-bottom: 50px;
+}
+.table{
+  margin-top: 50px;
+}
+.header-area {
   margin-bottom: 50px;
 }
 
